@@ -1,1 +1,1 @@
-# SafeTube
+# SafeTec site frontend
