@@ -1,0 +1,43 @@
+.contact{
+    box-shadow: 0px 0px 10px 0px #a9a9a9;
+    border-radius: 20px;
+    width: 80%;
+    background-image: linear-gradient(180deg, #3679dc 0%, #00c0ff 100%);
+
+}
+.contact h1{
+    font-size: 4em;
+    font-weight: 400;
+    padding: 4px;
+}
+.contact .btn-contact{
+    background: white;
+    border-radius: 20px;
+    border: none;
+    margin: 16px;
+    margin-right: 10%;
+    padding: 2px 8px;
+    width: 25%;
+    font-size: 1.5em;
+}
+.contact .btn-contact:hover{
+    background: rgb(54, 121, 222);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .contact{
+        align-items: center;
+    }
+    .contact form{
+        width: 100%;
+        justify-content: center;
+    }
+    .contact h1{
+        font-size: 2em;
+    }
+    .contact .btn-contact{
+        width: 50%;
+        margin: 12px 0;
+    }
+  }

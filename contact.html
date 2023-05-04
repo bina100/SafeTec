@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favi_io -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <title>Contact</title>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/safe-tec.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <header class="d-flex align-items-center px-2 px-md-0">
+            <div class=" container mx-md-auto m-0 ">
+                <div class="row text-center align-items-center justify-content-between">
+                    <a href="index.html" class="col-4 col-sm-3 col-md-2"> <img class="col-12" alt="logo"
+                            src="images/logo.png"></a>
+                    <nav class="col-md-8" id="nav_open">
+                        <a href="about.html">על סייפטק</a>
+                        <a href="faq.html">מידע ותמיכה</a>
+                        <a href="contact.html">צור קשר</a>
+                        <a href="media.html">גלריה</a>
+                        <a href="trivia.html">טריוויה</a>
+                    </nav>
+                    <i class="fa fa-bars col-2" id="burger_btn" aria-hidden="true"></i>
+                </div>
+            </div>
+        </header>
+
+        <section class="contact my-4 mx-auto p-3 d-flex justify-content-center flex-column align-items-center">
+            <h1 class="text-center text-white">צרו איתנו קשר</h1>
+
+            <form action="/thanks.html" class="row pt-2 p-1 p-md-3">
+                <div class="col-md-6 p-0 px-md-3">
+                    <input class="col-8 mb-3 form-control" placeholder="שם פרטי ושם משפחה *" required type="text"
+                        id="name" name="name">
+                    <input class="col-8 mb-3 form-control"
+                        pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}$" placeholder="מייל *" required
+                        type="email" id="email" name="email">
+                    <input class="col-8  form-control" type="tel" placeholder="טלפון *" required id="phone"
+                        name="phone">
+                </div>
+                <textarea class="col-md-6 mt-3 mt-md-0 rounded-2 p-2" placeholder="ההודעה שלך *" required id="message"
+                    name="message" rows="4" cols="50"></textarea>
+                <input class="btn-contact" type="submit" value="שלח">
+
+            </form>
+        </section>
+
+
+        <footer class="mt-4 pt-md-4">
+            <div class="row p-0 m-0 text-md-end text-center  justify-content-md-around justify-content-center">
+                <div class="col-md-3 order-2 order-md-1">
+                    <ul>
+                        <li><a href="#">תנאי הצטרפות</a></li>
+                        <li><a href="#">מדיניות ביטולים</a></li>
+                        <li><a href="#">מדיניות פרטיות</a></li>
+                        <li><a href="#">תקנון הסרה</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 order-3 order-md-2">
+                    <div>
+                        <button>כניסת משווקים</button>
+                        <button>הורדת התוכנה לוינדוס</button>
+                        <button>הורדה לאנדרואיד</button>
+                    </div>
+                    <p>כל הזכויות שמורות ל ת.סייפטק טכנולוגיות בע"מ @ 2021-נבנה ע"י Bina Stefansky</p>
+                </div>
+                <div class="col-md-3 order-1 order-md-3">
+                    <img class="w-md-75 w-50 m-4 m-md-0" src="images/logo-footer.png">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- burger -->
+    <script src="js/burger.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
